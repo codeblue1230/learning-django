@@ -123,6 +123,9 @@ STATIC_URL = "static/"
 
 CRISPY_TEMPLATE_PACK="bootstrap5"
 
+LOGIN_REDIRECT_URL = "/" # Change default of where user is directed once signed in
+LOGOUT_REDIRECT_URL = "/" # Change default of where user is directed once logged out
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

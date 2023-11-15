@@ -7,7 +7,7 @@ def register(response):
         form = RegisterForm(response.POST)
         if form.is_valid():
             form.save() # Saves new user in the database for us
-        return redirect("/home")        
+        return redirect("/")        
 
     else:
         form = RegisterForm()
